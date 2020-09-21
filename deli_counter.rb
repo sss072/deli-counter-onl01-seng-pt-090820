@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |element, index| 
       new_line << " #{index + 1}. #{element}"
     end
-    new_line 
+    puts new_line 
     
   end
 end
